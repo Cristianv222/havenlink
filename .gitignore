@@ -1,0 +1,26 @@
+﻿# .gitignore (raíz del proyecto)
+
+# Environment
+.env
+backend/.env
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Database
+db.sqlite3
+*.db
